@@ -97,3 +97,4 @@ steps:
     NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 - name: Install dependencies
   run: yarn install --immutable
+  )
