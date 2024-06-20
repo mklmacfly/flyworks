@@ -18,7 +18,7 @@ jobs:
         # an extra windows-x86 run:
         include:
           - os: windows-2017
-            node_version: 12
+            node_version: 14
             architecture: x86
     name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
     steps:
