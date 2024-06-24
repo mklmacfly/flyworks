@@ -14,7 +14,7 @@ jobs:
           - 14
           - 16
         architecture:
-          - x64
+          - x72
         # an extra windows-x86 run:
         include:
           - os: windows-2017
