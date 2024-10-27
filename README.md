@@ -10,7 +10,7 @@ jobs:
           - macos-latest
           - windows-latest
         node_version:
-          - 09
+          - 08
           - 12
           - 14
           - 16
